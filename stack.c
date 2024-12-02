@@ -114,7 +114,7 @@ void display()
     int i;
     if (isempty())
     {
-        printf("Error");
+        printf("Stack is empty ");
     }
     printf("Displaying Stack...\n");
     for (i = top; i >= 0; i--)
