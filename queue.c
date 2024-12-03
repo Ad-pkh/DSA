@@ -92,7 +92,7 @@ int peek()
 {
     if (isempty())
     {
-        printf(" queue khali xa");
+        printf(" Queue khali xa");
         return 0;
     }
     return queue[front];
@@ -127,6 +127,6 @@ void display()
     printf("Displaying queue...\n");
     for (i = front; i <= rare; i++)
     {
-        printf("%d\t", queue[i]);
+        printf("%d\n", queue[i]);
     }
 }
